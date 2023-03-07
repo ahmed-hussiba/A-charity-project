@@ -44,16 +44,6 @@ class WelcomeScreen2 extends StatelessWidget {
                           fontWeight: FontWeight.bold,
                           fontStyle: FontStyle.italic),
                     ),
-                    TextField(
-                      style: TextStyle(
-                        color: Colors.white70,
-                        fontSize: 30,
-                        fontWeight: FontWeight.bold,
-                      ),
-                      decoration: InputDecoration(
-                        border: const OutlineInputBorder(),
-                      ),
-                    ),
                   ]))
             ])));
   }
